@@ -173,7 +173,7 @@ nav h1 a {
 	border-radius: 7px;
 	padding: 1.7px;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
 	color: #0F4880;
 	font-family: Arial,sans-serif;
 	font-size: calc(13px + 1vw);
@@ -327,6 +327,17 @@ nav h1 a {
 #reviews-list li p:nth-child(4){
 	width:380%;
 	margin-left: 15px;
+}
+/* ====================== Select cousine & neighborhood labels ====================== */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 /* ====================== Media Queries ====================== */
 @media screen and (min-width: 681px) and (max-width: 824px){
